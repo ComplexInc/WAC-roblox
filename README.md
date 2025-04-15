@@ -1,59 +1,60 @@
 # 🚨 WAC Detection System
 
-Système de détection conçu pour repérer divers comportements suspects liés aux **speedhacks**, **téléportations** et **manipulations physiques** dans Roblox.
+Detection system designed to identify various suspicious behaviors related to **speedhacks**, **teleportations**, and **physical manipulations** in Roblox.
 
 ## 🪛 Installation
-### 1. Telecharger WAC (l'anti cheat)
-### 2. Glisser deposer Anticheat.lua dans ServerScriptService -> Script
-### 3. Glisser deposer WACConfig dans ServerScriptService -> ModuleScript
-### 4. Configurer WAC si nécessaire
----
-
-## 🏃‍♂️ Mouvements anormaux (Speed & Dash)
-
-| Exploit            | Statut    | Description                                                                 |
-|--------------------|-----------|-----------------------------------------------------------------------------|
-| WalkSpeed          | ✅ Activé | Modification directe de la vitesse de déplacement du joueur.               |
-| Velocity Injection | ✅ Activé | Ajout manuel de vélocité au personnage.                                    |
-| Speed Oscillation  | ✅ Activé | Variation rapide et constante de la vitesse pour éviter les détections.    |
-| Reverse Speed      | ✅ Activé | Déplacement rapide vers l’arrière en inversant la direction.               |
-| SlowMo             | ⏳ À venir| Ralentissement volontaire pour manipuler les mécaniques de mouvement.      |
+### 1. Download WAC (the anti-cheat)
+### 2. Drag and drop `Anticheat.lua` into `ServerScriptService` -> `Script`
+### 3. Drag and drop `WACConfig` into `ServerScriptService` -> `ModuleScript`
+### 4. Configure WAC if necessary
 
 ---
 
-## 🚀 Déplacement forcé (Push, Slide, Dash)
+## 🏃‍♂️ Abnormal Movement (Speed & Dash)
 
-| Exploit            | Statut    | Description                                                                 |
-|--------------------|-----------|-----------------------------------------------------------------------------|
-| BodyVelocity Force | ✅ Activé | Déplacement forcé en appliquant une BodyVelocity au personnage.            |
-| Physics Push       | ✅ Activé | Application d’une force physique pour pousser le joueur.                   |
-| Slide Boost        | ✅ Activé | Glissade rapide au ras du sol pour gagner en vitesse.                      |
-| Loop Jump (Dash)   | ✅ Activé | Enchaînement de sauts et d’impulsions vers l’avant.                        |
-| Spam Dash          | ⏳ À venir| Séries rapides de dashs pour simuler un boost de vitesse.                 |
+| Exploit            | Status       | Description                                                              |
+|--------------------|--------------|--------------------------------------------------------------------------|
+| WalkSpeed          | ✅ Enabled    | Direct modification of the player's movement speed.                      |
+| Velocity Injection | ✅ Enabled    | Manually adding velocity to the character.                               |
+| Speed Oscillation  | ✅ Enabled    | Rapid and constant speed variation to bypass detection.                  |
+| Reverse Speed      | ✅ Enabled    | Fast backward movement by reversing direction.                           |
+| SlowMo             | ⏳ Coming Soon| Intentional slowdown to manipulate movement mechanics.                   |
 
 ---
 
-## ✨ Téléportation & Glitch
+## 🚀 Forced Movement (Push, Slide, Dash)
 
-| Exploit            | Statut    | Description                                                                 |
-|--------------------|-----------|-----------------------------------------------------------------------------|
-| Position Teleport  | ✅ Activé | Téléportation instantanée du joueur vers une nouvelle position.            |
-| CFrame Nudge       | ✅ Activé | Déplacement subtil en modifiant la CFrame à chaque frame.                  |
-| Tween Movement     | ✅ Activé | Déplacement fluide par animation via TweenService.                         |
-| Gravity Exploit    | ⏳ À venir| Altération de la gravité pour sauter plus haut ou flotter.                 |
-| Network Lag Skip   | ✅ Activé | Simulation de lag pour passer brutalement d'une position à une autre.      |
+| Exploit            | Status       | Description                                                              |
+|--------------------|--------------|--------------------------------------------------------------------------|
+| BodyVelocity Force | ✅ Enabled    | Forced movement by applying a BodyVelocity to the character.             |
+| Physics Push       | ✅ Enabled    | Applying physical force to push the player.                              |
+| Slide Boost        | ✅ Enabled    | Fast ground-level sliding to gain speed.                                 |
+| Loop Jump (Dash)   | ✅ Enabled    | Repeating jumps and forward impulses.                                    |
+| Spam Dash          | ⏳ Coming Soon| Rapid dash sequences simulating a speed boost.                           |
+
+---
+
+## ✨ Teleportation & Glitch
+
+| Exploit            | Status       | Description                                                              |
+|--------------------|--------------|--------------------------------------------------------------------------|
+| Position Teleport  | ✅ Enabled    | Instantly teleporting the player to a new position.                      |
+| CFrame Nudge       | ✅ Enabled    | Subtle movement by modifying the CFrame every frame.                     |
+| Tween Movement     | ✅ Enabled    | Smooth movement via TweenService animations.                             |
+| Gravity Exploit    | ⏳ Coming Soon| Altering gravity to jump higher or float.                                |
+| Network Lag Skip   | ✅ Enabled    | Simulating lag to suddenly shift from one position to another.           |
 
 ---
 
 ## 🐸 Fly
 
-| Exploit     | Statut    | Description                                                  |
+| Exploit     | Status    | Description                                                  |
 |-------------|-----------|--------------------------------------------------------------|
-| Spam Jump   | ✅ Activé | Sauts répétés empêchant le joueur de toucher le sol.         |
+| Spam Jump   | ✅ Enabled| Repeated jumps preventing the player from touching the ground.|
 
 ---
 
-## ✅ Légende
+## ✅ Legend
 
-- ✅ **Activé** : Détection fonctionnelle et en place.  
-- ⏳ **À venir** : Détection en cours de développement ou test.
+- ✅ **Enabled**: Functional and active detection.  
+- ⏳ **Coming Soon**: Detection under development or testing.
