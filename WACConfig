@@ -1,0 +1,12 @@
+-- ModuleScript "WACConfig"
+local config = {
+	CheckInterval = 0.7,           -- temps entre chaque vérification
+	MaxSpeedDistance = 16,         -- distance max tolérée par tick
+	MaxSpeedAlerts = 5,            -- alertes avant kick pour speed
+	MaxReverseAlerts = 3,          -- alertes avant kick pour reverse speed
+	MinReverseDistance = 5,        -- distance mini pour reverse speed
+	MinReverseDot = -0.75,         -- seuil dot product pour reverse
+	JumpHeightThreshold = 7.3,     -- saut anormal
+}
+
+return config
