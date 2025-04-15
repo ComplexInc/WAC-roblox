@@ -15,7 +15,7 @@ Système de détection conçu pour repérer divers comportements suspects liés 
 | WalkSpeed          | ✅ Activé | Modification directe de la vitesse de déplacement du joueur.               |
 | Velocity Injection | ✅ Activé | Ajout manuel de vélocité au personnage.                                    |
 | Speed Oscillation  | ✅ Activé | Variation rapide et constante de la vitesse pour éviter les détections.    |
-| Reverse Speed      | ⏳ À venir| Déplacement rapide vers l’arrière en inversant la direction.               |
+| Reverse Speed      | ✅ Activé | Déplacement rapide vers l’arrière en inversant la direction.               |
 | SlowMo             | ⏳ À venir| Ralentissement volontaire pour manipuler les mécaniques de mouvement.      |
 
 ---
