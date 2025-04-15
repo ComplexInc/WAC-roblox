@@ -4,8 +4,9 @@ Système de détection conçu pour repérer divers comportements suspects liés 
 
 ## 🪛 Installation
 ### 1. Telecharger WAC (l'anti cheat)
-### 2. Glisser deposer Anticheat.lua dans ServerScriptService
-
+### 2. Glisser deposer Anticheat.lua dans ServerScriptService -> Script
+### 3. Glisser deposer WACConfig dans ServerScriptService -> ModuleScript
+### 4. Configurer WAC si nécessaire
 ---
 
 ## 🏃‍♂️ Mouvements anormaux (Speed & Dash)
